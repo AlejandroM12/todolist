@@ -1,9 +1,10 @@
 import './App.css';
+import TodoWrapperLocalStorage from './components/TodoWrapperLocalStorage';
 
 function App() {
   return (
     <div>
-      <h1>TODO LIST</h1>
+      <TodoWrapperLocalStorage />
     </div>
   );
 }
